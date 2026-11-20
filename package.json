@@ -1,0 +1,40 @@
+{
+  "name": "allunits-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for unit conversion — 30 pairs, local computation, same factors as allunits.org.",
+  "type": "module",
+  "bin": {
+    "allunits-mcp": "server.mjs"
+  },
+  "main": "server.mjs",
+  "files": [
+    "server.mjs",
+    "factors.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "unit-conversion",
+    "units",
+    "converter",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusimply/allunits-mcp.git"
+  },
+  "homepage": "https://api.allunits.org/docs",
+  "bugs": {
+    "url": "https://github.com/tusimply/allunits-mcp/issues"
+  }
+}

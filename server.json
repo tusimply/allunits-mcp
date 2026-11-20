@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "org.allunits/allunits-mcp",
+  "title": "AllUnits Unit Conversion",
+  "description": "Convert between 30 unit pairs (length, weight, temperature, pressure, data size, volume, speed, time, area) with the exact factors published on allunits.org. Runs locally, no API key, returns the stored factor and the page that documents each definition.",
+  "version": "1.0.0",
+  "websiteUrl": "https://api.allunits.org/docs",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "allunits-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/tusimply/allunits-mcp",
+    "source": "github"
+  }
+}
